@@ -1,7 +1,9 @@
 #include <stdio.h>
+#include <locale.h>
 
 int main()
 {
+    setlocale(LC_ALL, NULL);
     char nome[10];
     int peso = 0;
     float altura = 0.0;
